@@ -1,2 +1,6 @@
-Terceiro Trimestre
-Douglas Liborio Carvalho n°7
+# Terceiro Trimestre
+
+## Identificação
+Douglas Carvalho N°07 1°G
+
+## Conteúdo - HTML - CSS - JavaScript
