@@ -1,6 +1,6 @@
 # Terceiro Trimestre
 
 ## Identificação
-Douglas Carvalho N°07 1°G
+Douglas Libório Carvalho - N°07
 
-## Conteúdo - HTML - CSS - JavaScript
+## Conteudo - HTML - CSS - JavaScript
