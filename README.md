@@ -1,6 +1,6 @@
-# Terceiro Trimestre
+# Terceiro Trimestre 
 
-## Identificação
-Douglas Libório Carvalho - N°07
+## Identificação 
+Douglas Carvalho - Nr: 07
 
-## Conteudo - HTML - CSS - JavaScript
+## Conteudo - HTML - CSS - JavaScript 
