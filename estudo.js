@@ -1,35 +1,40 @@
-
+function moeda (atual)  {
+return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+}
 function total(){
-    let c = document.getElementById("valor").value;
+    let c = document.getElementById("capital").value;
     let j = document.getElementById("juros").value;
     let t = document.getElementById("meses").value;
     if(!Number(c)){
       alert("O valor do capital deve ser um número.");
-      document.getElementById("valor").value = "";
-      document.getElementById("valor").focus();
+      document.getElementById("capital").value = "";
+      document.getElementById("capital").focus();
       return
     }
     if(!Number(j)){
-      alert("O valor do juros deve ser um número.");
+      alert("O valor dos juros deve ser um número.");
       document.getElementById("juros").value = "";
       document.getElementById("juros").focus();
       return
     }
     if(!Number(t)){
-      alert("O valor do meses deve ser um número.");
+      alert("A quantidade de meses deve ser um número.");
       document.getElementById("meses").value = "";
       document.getElementById("meses").focus();
       return
     }
     let r = 0;
+    let texto = "";
     for(let i = 1; i <= t; i++){
-        r = c * (1 + (j/100));
-        document.write("Mês " + i + " valor: " + r +"<br>");
-        c = r;
+        m = c * (1 + (j/100));
+        texto += i + ": " + moeda(m) + "<br>";
+        //document.write("Mês " + i + " valor: " + r +"<br>");
+        c = m;
     }
-    document.write("Resultado: " + r);
-  }
-  
+    document.getElementById("listaMes").innerHTML = texto;
+    document.getElementById("total").innerHTML = moeda (m);
+    //document.write("Resultado: " + r);
+}
   
   function adicao(){
   let val1 = document.getElementById("v1").value;
@@ -64,9 +69,8 @@ function total(){
           let c = 100
           let p = Number(val2)  / Number(c)
           let r = Number(val1) * Number(p);
-          document.getElementById("resultado").innerHTML =r;
+          document.getElementById("resultado").innerHTML = r;
           }
     
-  
-  
-  
+
+    

@@ -1,6 +1,5 @@
-# Terceiro Trimestre 
+# Terceiro Trimestre
+## Identificação
+Isabelly Durais Borborema N 13
 
-## Identificação 
-Douglas Carvalho - Nr: 07
-
-## Conteudo - HTML - CSS - JavaScript 
+## Conteúdo - HTML - CSS - JavaScript
